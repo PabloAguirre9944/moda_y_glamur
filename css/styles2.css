@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    padding: 50px 70px 50px 70px;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/03/03/09/20/1000_F_303092089_dEHQVtA3hEeq1KyjhkOdB4zXaJUWKZxo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    background-color: #faf060;
+    padding: 10px;
+    border: solid 2px #ffd92d;
+    flex-direction: row;
+}
+.cabecera{
+    background-color: #164bfc;
+    border: solid 3px #3e91ff;
+    display: flex;
+    align-items: center;
+}
+.logotipo_colegio{
+    width: 100%;
+    height: 100%;
+}
+.principal{
+    background-color: #ffffff;
+    border: solid 3px #ececec;
+    margin-right: 0px;/*borrar*/
+    width: 100%;
+    margin-right: 10px;
+}
+.menu_lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: start;
+    background-color: #164bfc;
+    border: solid 3px #3e91ff;
+    width: 20%;
+}
+.logo_pagina{
+    width: 100%;
+    height: 100%;
+}
+.contenedor_logo_pagina{
+    padding: 10px;
+}
+.opcion_marcas{
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: sold 5px #ffffff;
+}
+.opciones_marcas{
+    padding: 10px 10px 0px 10px;
+    border: #1f1f1f;
+}
+.logos_marcas{
+    width: 100%;
+    height: 100%;
+}
+.piepagina{
+    display: flex;
+    background-color: #164bfc;
+    border: solid 3px #3e91ff;
+    padding: 10px;
+    justify-content: space-between;
+}
+.logotipo_institucion{
+    margin-right: 10px;
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+.encabezado{
+    width: 80%;
+    height: 100%;
+    margin: 10px;
+}
+.titulo_principal{
+    text-align: center;
+    color: #ffd7a9;
+    font-size: 4vw;
+}
+.menu_principal{
+    display: flex;
+    justify-content: space-between;/*Cambiar a space-between*/
+    width: 100%;
+}
+.opcion_menuprincipal{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border: solid 2px #ebebeb;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;/*Cambiar a 80%*/
+}
+.opcion_menuprincipal:hover{
+    background-color: #fcff5c;
+    border: solid 2px #ffe711;
+}
+.opcion_menuprincipal_link:link{
+    text-align: center;
+    color: #000000;
+}
+.opcion_menuprincipal_link:visited{
+    text-align: center;
+    color: #000000;
+}
+.opcion_menuprincipal_link:hover{
+    color: #0447ff;
+}
+.opcion_menuprincipal_link{
+    width: 100%;
+    height: 100%;
+}
+/*Conteindo principal*/
+.articulo{
+    display: inline;
+}
+.titulo_main{
+    text-align: center;
+    margin: 10px 10px 0px 0px;
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.articulo{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+.titulo_articulo{
+    text-align: left;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #164bfc;
+    padding-left: 10px;
+}
+.contenido_articulo{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.informacion_articulo{
+    text-align: left;
+    font-size: 5mm;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+.imagen_articulo{
+    width: 200px;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+}
+.conocerMasDiv{
+    margin: 10px 0px 0px 10px;
+    font-size: 20px;
+}
+.conocerMas:link{
+    color: #000000;
+}
+.conocerMas:visited{
+    color: #000000;
+}
+.conocerMas:hover{
+    text-decoration: underline;
+}
+/*Pie de pagina*/
+.estudiante{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.estudiante2{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: 100%;
+}
+.foto_perfil{
+    width: 100px;
+    height: 100px;
+}
+table,td,tr{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1vw;
+    color: #ffffff;
+}
+.perfil{
+    width: 105px;
+    height: 105px;
+}
+.comentarios:link{
+    color: #ffffff;
+}
+.comentarios:visited{
+    color: #ffffff;
+}
+.comentarios:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+/*Adaptacion de la pagina*/
+@media screen and (max-width: 800px) {
+    .cuerpo{
+        box-sizing: border-box;
+    }
+    .logos_marcas{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .opcion_menuprincipal{
+        font-size: 2vw;
+    }
+    .contenido{
+        flex-direction: column;
+        margin-right: 5px;
+    }
+    .contenido_articulo{
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    .imagen_articulo{
+        width: 96%;
+        height: auto;
+    }
+    .menu_lateral{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .logo_pagina{
+        width: 100%;
+        height: 100%;
+    }
+    .opciones_marcas{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .opcion_marcas{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+    .piepagina{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 97.5%;
+        height: auto;
+        padding-right: 0px;
+        
+    }
+    .estudiante{
+        width: 94%;
+        margin-bottom: 10px;
+    }
+    .estudiante2{
+        width: 94%;
+    }
+    .tabla{
+        width: 100%;
+    }
+    .email{
+        width: 40%;
+        font-size: 3vw;
+    }
+    .nombre_Estudiante{
+        width: 30%;
+        font-size: 3vw;
+    }
+    .perfil{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cuerpo{
+        padding: 0;
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border: 0;
+    }
+    .cabecera{
+        border: 0;
+    }
+    .contenedor_logo_pagina{
+        border: 0;
+    }
+    .contenido{
+        border: 0;
+        width: 100%;
+    }
+    .principal{
+        border: 0;
+    }
+    .menu_lateral{
+        border: 0;
+    }
+    .piepagina{
+        border: 0;
+        width: 96.5%;
+        overflow: scroll;
+    }
+    .estudiante{
+        margin: 0;
+    }
+    .estudiante2{
+        width: 94%;
+    }
+    .cabecera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu_principal{
+        width: 100%;
+    }
+    .foto_perfil{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+/*Estilos del formulario*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #4d85ff;
+    padding: 20px;
+    margin: 20px;
+    font-family: Century;
+}
+.nombreForm{
+    padding: 10px;
+    font-family: Century Gothic;
+}
+.emailForm{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Century Gothic;
+}
+.asuntoForm{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Century Gothic;
+}
+.mensajeForm{
+    padding: 10px;
+    margin-top: 20px;
+    resize: none;
+    width: calc(100% - 23px);
+    height: 300px;
+    font-family: Century Gothic;
+}
+.enviarForm{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Century Gothic;
+}
